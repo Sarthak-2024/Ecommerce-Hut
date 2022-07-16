@@ -1,0 +1,58 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 6vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.Navbar{
+  position:absolute;
+  font-family: Roboto;
+  top: 0%;
+  z-index: 10001;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(0, 0, 0, 0.881);
+  font-weight: 400;
+  background-color: #2893f1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-self: center;
+  align-items:center;
+  font-size: 1.5vmax;
+  min-height: 5vmax;
+}
+.Navbar-1{
+  display: flex;
+  margin-right: auto;
+}
+.Navbar-2{
+  display: flex;
+  margin-right: 5px;
+}
+img{
+  width: 150px;
+  padding: 5px;
+}
+.a{
+  color: rgb(48, 45, 45);
+  font-weight: 400;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: auto;
+}
+.a:hover{
+  background-color: rgb(48, 45, 45);
+  color: #2893f1;
+  text-decoration: none;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .Navbar{flex-direction: column;}
+}
