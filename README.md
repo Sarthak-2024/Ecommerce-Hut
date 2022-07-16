@@ -1,4 +1,4 @@
-# MERN E-COMMERCE TUTORIAL
+# EcommerceHut
 
 Hi! Myself **Sarthak Kashyap**
 
